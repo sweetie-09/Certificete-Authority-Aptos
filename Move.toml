@@ -1,0 +1,15 @@
+[package]
+name = "CertificateAuthority"
+version = "1.0.0"
+authors = []
+
+[addresses]
+sweety_addr="0x2a779f53e16826eb4d499aa4267dc7bcfe92fbdba0a5064717ae8476bd438fa9"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
